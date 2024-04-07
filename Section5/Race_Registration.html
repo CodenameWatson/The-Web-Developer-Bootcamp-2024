@@ -7,5 +7,57 @@
   </head>
   <body>
     <h1>Race Registration</h1>
+    <form action="/">
+      <p>
+        <label for="Firstname">First name:</label>
+        <input
+          id="Firstname"
+          type="text"
+          placeholder="First name"
+          name="Firstname"
+          required
+        />
+
+        <label for="Lastname">Last name:</label>
+        <input
+          id="Lastname"
+          type="text"
+          placeholder="Last name"
+          name="Lastname"
+          required
+        />
+      </p>
+
+      <h2>Select a Race:</h2>
+
+      <p>
+        <input type="radio" name="race" id="5k" value="5k" />
+        <label for="5k">Fun Run 5k</label>
+      </p>
+      <p>
+        <input type="radio" name="race" id="half" value="half" />
+        <label for="half">Half Marathon</label>
+      </p>
+      <p>
+        <input type="radio" name="race" id="full" value="full" />
+        <label for="full">Full Marathon</label>
+      </p>
+
+      <p>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="pw">Password</label>
+        <input type="password" id="pw" name="pw" required />
+      </p>
+      <p>
+        <label for="age">Select Age Group</label>
+        <select name="age" id="age" required>
+          <option value="under">Under 18</option>
+          <option value="18-25">18-25</option>
+          <option value="25+">25+</option>
+        </select>
+      </p>
+      <button>Register</button>
+    </form>
   </body>
 </html>
