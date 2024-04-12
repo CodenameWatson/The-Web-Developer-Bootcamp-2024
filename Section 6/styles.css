@@ -1,13 +1,16 @@
 
 h2 {
-    background-color: rebeccapurple;
+    background-color: rgb(89, 151, 0);
     color: aquamarine;
 }
 button {
     color: rgb(240, 248, 255);
-background-color: cyan;
+background-color: rgb(255, 0, 0);
 }
 p{
  background: orange;
     color: blue;
+}
+body {
+    background-color: turquoise;
 }

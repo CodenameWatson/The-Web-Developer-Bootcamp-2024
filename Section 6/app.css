@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    text-decoration: overline dotted rebeccapurple;
+    font-weight: normal;
+    font-size: 80px;
+    font-family: Segoe UI, Futura, sans-serif;
+
+}
+p {
+    text-align: right;
+    line-height: 2;
+    letter-spacing: normal;
+}
+a {
+    text-decoration: none;
+}
